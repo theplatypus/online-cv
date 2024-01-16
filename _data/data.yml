@@ -4,131 +4,136 @@
 
 sidebar:
     position: left # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Nicolas Bloyet
+    tagline: Data Scientist/Engineer
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: nicolas.bloyet@gmail.com
+    phone: 06.32.82.88.18
+    timezone: Paris Timezone
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: theplatypus.github.io #do not add http://
+    linkedin: nicolas-bloyet
+    xing: 
+    github: theplatypus
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: 
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: French
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
+        - idiom: English
           level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Photography
+          link: https://theplatypus.myportfolio.com/
+
+        - item: Piano/Music
           link:
 
-        - item: Snowboarding
-          link:
+        - item: Running
+          link: 
 
-        - item: Cooking
+        - item: Playing Magic
           link:
 
 career-profile:
-    title: Career Profile
+    title: Summary
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Computer science PhD based in Morlaix, trained as a data scientist, I am currently dedicated to data engineering in the Networks and Telecommunications sector.
+
+      My career combines engineering skills, a passion for research and innovation, with a particular expertise in data science and artificial intelligence. 
+      
+      Through academic and industrial projects, I have acquired an overview of data projects, from proof of concept to industrialization and scaling.
+
 education:
     title: Education
     info:
+      - degree: PhD in Computer Science (CIFRE)
+        university: Université de Bretagne-Sud
+        time: 2016 - 2019
+        details: |
+          Conducted with success and large autonomy a 3 years data science project involving:
+            - academics: IRISA (Expression team) & LMBA
+            - industrials: Avril group & See-d (small scale research lab)
+
+          > Manuscript available on [TEL](https://tel.archives-ouvertes.fr/tel-02499167)
       - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+        university: Université de Bretagne-Sud
+        time: 2014 - 2016
+        details: ''
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: R&D Data Engineer
+        time: 2022 - Present
+        company: Ekinops, Lannion
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          - Re-Design and implementation (OLTP -> OLAP) of the Netflow processing/aggregation stack in a SD-Wan product. 
+          - Implementation of testing/simulation tools, generation of massive network data
+            - Upstreamed contributions to `scapy` Netflow module
+          - Migrations of SQL databases
+          - Index tailoring, request profiling
+          - Pipeline automation using Gitlab CI/CD
+          
+          `Python` `asyncio` `pola.rs` `scapy` 
+          
+          `Go` `DuckDB` `PostgreSQL` `MariaDB` `Galera` `Gitlab CI/CD`
+
+      - role: Data Scientist
+        time: 2019 - 2022
+        company: See-d, Vannes
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          - Regression, Classification, Forecasting on various industrial topics (agronomy, logistics)
+          - Natural Language Processing (NLP)
+            - topic segmentation 
+            - sentiment analysis
+          - Image analysis (Computer Vision, anomaly detection, CNN)
+            - production monitoring 
+            - quality control
+          - Deployment and industrialization of Data Science projects (MLOps)
+          - Report writing and project presentation to stakeholders
+          - Writing and conducting pedagogical trainings 
+            - "Lean 6-sigma black belt" level
+            - Qualiopi certified on first session
+          - Mentored:
+            - 4 internships (BsC and MSc level)
+            - 3 phd candidates in a summer school program
+
+          `Python` `PySpark` `PyTorch` `gensim` `Keras` `OpenCV` 
+          
+          `R` `PostgreSQL` `SnowFlake` `Docker` `Anaconda`
+
+      - role: Phd candidate (data scientist)
+        time: 2016 - 2019
+        company: Avril + See-d + IRISA, Vannes & Rennes (Remote)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Machine learning applied to structure-activity relationships (QSAR)
+          - Development of Feature-Learning algorithms for for molecular subgraphs
+          - Exploration of correlations between topological and macroscopic models
+          - Contributed to graph isomorphism problem, library published in MIT 
+          
+          Worked on side subjects as Junior Data-Scientist.
+          
+          `Python` `PySpark` `PyTorch` `gensim` `R` `Docker`
 
 certifications:
       title: Certifications
@@ -154,112 +159,116 @@ certifications:
             fringilla vel. Ut euismod, sem sed vulputate venenatis,
             justo diam viverra velit, sed rhoncus leo leo eu justo.
             Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro: 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Scott
+        link: "https://theplatypus.github.io/scott/"
+        tagline: "My thesis contribution to graph isomorphism problem."
+        details: |
+          
+          - canonization algorithm working on fully labeled graphs (vertices and edges)
+          - provides for any graph a tree representant of its isomorphism class
+          - well suited for low-connected graphs (e.g. molecules)
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: RExpress
+        link: "https://github.com/theplatypus/RExpress"
+        tagline: "Low latency, middleware ReST wrapper of a pool of R interpreters."
+        details: |
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+          - Has been used to provide real-time access to a pricing model (retail) running in R
+          - Key point is to pipe the incoming HTTP request to a pool of interpreters kept opened
+          - < 20ms of additional latency.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Cardigraph
+        link: "https://gist.github.com/theplatypus/886ac65e837b8d23ed4d630051888603"
+        tagline: "Few theoretical calculus of graph classes cardinalities."
 
 oss:
     title: OSS Contributions
     intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Some open-sources projects I enjoyed contributing for:
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Scapy
+        link: "https://github.com/secdev/scapy"
+        tagline: "Python-based interactive packet manipulation program & library."
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    intro:
     papers:
-      - title: The Art of Computer Programming
+      - title: "Scott: A method for representing graphs as rooted trees for graph canonization"
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: Nicolas Bloyet, Pierre-François Marteau, Emmanuel Frénod
+        conference: Complex Networks and Their Applications, 2019
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      - title: "Étude lexicographique de sous-graphes pour l’élaboration de modèles structures à activité–cas de la chimie organique"
         link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        authors: Nicolas Bloyet, Pierre-François Marteau, Emmanuel Frénod
+        conference: "Extraction et Gestion des Connaissances, 2019"
 
-      - title: A syntax directed compiler for Algol 60
+      - title: "Construction of a statistical learning tool based on ordinary differential equations to model the digestive behaviour of ross chickens"
         link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        authors: Nicolas Bloyet, Hélène Flourent, Emmanuel Frénod, Marouan Handa, Harold Moundoyi, Thuy Vo Thi Phuong
+        conference: "ESAIM: Proceedings and Surveys, 2020"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - category: Technical Stack
+        details: |
+          `Python` `asyncio` `pola.rs` `pandas` `AirFlow` `Spark` `scikit` `PyTorch`
 
-      - name: Javascript & jQuery
-        level: 98%
+          `R` `Go` `Node.js`
 
-      - name: Angular
-        level: 98%
+          `bash` `Docker` `Gitlab CI/CD`
 
-      - name: HTML5 & CSS
-        level: 95%
+      - category: SGBD 
+        details: |
+          - **OLTP** `PostgreSQL` `MariaDB` `Galera`
 
-      - name: Ruby on Rails
-        level: 85%
+          - **OLAP** `ClickHouse` `polars` `DuckDB` `SnowFlake` 
+          
+          - **NoSQL** `MongoDB` `Redis`
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - category: Data Science
+        details: |
+          - Regression, Classification, Forecasting
+          - Variable Selection
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - category: Machine/Deep Learning
+        details: |
+          - Auto-Encoders
+          - Generative Adversarial Networks
+          - Convolutional Neural Networks
+          - Q-Learning
+
+      - category: Algorithmics
+        details: |
+          - Graph Theory
+          - Algorithms Complexity
+          - Distributed Computing 
+          - Asynchronous Programming 
+
+      - category: Natural Language Processing (NLP)
+        details: |
+          - Topic segmentation
+          - Document model
+          - Semantic vectorization models (*word2Vec*, *GloVe*)
+
+      - category: Computer Vision (CV)
+        details: |
+          - Object Detection/Segmentation
+          - Pattern matching
+          - Feature Extraction
+
+      - category: Communication
+        details: |
+          - Reports writing & presentations
+          - Trainings writing & animation
+
+
+footer: 
