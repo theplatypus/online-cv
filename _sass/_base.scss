@@ -33,6 +33,15 @@ p {
   line-height: 1.5;
 }
 
+blockquote {
+  font-size: 12px;
+}
+
+code {
+  color: #337ab7; // #555
+  background-color: #eee;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -250,6 +259,13 @@ p {
       margin-bottom: 15px;
     }
   }
+
+  .skills-category {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
 }
 
 .skillset {
