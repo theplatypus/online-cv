@@ -13,8 +13,6 @@ sidebar:
     avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: nicolas.bloyet@gmail.com
-    phone: 06.32.82.88.18
     timezone: Paris Timezone
     citizenship:
     website: theplatypus.github.io #do not add http://
