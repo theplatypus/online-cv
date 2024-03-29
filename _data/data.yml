@@ -92,7 +92,6 @@ experiences:
         - Architecture and implementation of the alerts/monitoring database of a network management solution (NMS)
         - DBMS optimization (Index tailoring, request profiling)
         - Automation of embedded database integration pipelines for routers (traffic classification)
-  #       - Pipeline automation using Gitlab CI/CD 
         
         `Python` `asyncio` `Galera` `Cassandra` 
         
@@ -242,14 +241,6 @@ skills:
           - Object Detection/Segmentation
           - Pattern matching
           - Feature Extraction
-
-      # - category: Automation
-      #   details: |
-      #     - `Docker` `Compose`
-      #     - `Gitlab CI/CD`
-      #     - System Monitoring (`Prometheus` `Grafana`)
-      #     - `AirFlow`
-      #     - `MLFlow`
 
       - category: Communication
         details: |
