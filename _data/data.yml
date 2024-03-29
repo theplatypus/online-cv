@@ -13,6 +13,7 @@ sidebar:
     avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
+
     timezone: Paris Timezone
     citizenship:
     website: theplatypus.github.io #do not add http://
@@ -62,155 +63,128 @@ career-profile:
       Through academic and industrial projects, I have acquired an overview of data projects, from proof of concept to industrialization and scaling.
 
 education:
-    title: Education
-    info:
-      - degree: PhD in Computer Science (CIFRE)
-        university: Université de Bretagne-Sud
-        time: 2016 - 2019
-        details: |
-          Conducted with success and large autonomy a 3 years data science project involving:
-            - academics: IRISA (Expression team) & LMBA
-            - industrials: Avril group & See-d (small scale research lab)
+  title: Education
+  info:
+    - degree: PhD in Computer Science (CIFRE)
+      university: Université de Bretagne-Sud
+      time: 2016 - 2019
+      details: |
+        Conducted with success and large autonomy a 3 years data science project involving:
+          - academics: IRISA (Expression team) & LMBA
+          - industrials: Avril group & See-d (small scale research lab)
 
-          > Manuscript available on [TEL](https://tel.archives-ouvertes.fr/tel-02499167)
-      - degree: MSc in Computer Science
-        university: Université de Bretagne-Sud
-        time: 2014 - 2016
-        details: ''
+        > Manuscript available on [TEL](https://tel.archives-ouvertes.fr/tel-02499167)
+    - degree: MSc in Computer Science
+      university: Université de Bretagne-Sud
+      time: 2014 - 2016
+      details: ''
 
 experiences:
-    title: Experiences
-    info:
-      - role: R&D Data Engineer
-        time: 2022 - Present
-        company: Ekinops, Lannion
-        details: |
-          - Re-Design and implementation (OLTP -> OLAP) of the Netflow processing/aggregation stack in a SD-Wan product. 
-          - Implementation of testing/simulation tools, generation of massive network data
-            - Upstreamed contributions to `scapy` Netflow module
-          - Migrations of SQL databases
-          - Index tailoring, request profiling
-          - Pipeline automation using Gitlab CI/CD
-          
-          `Python` `asyncio` `pola.rs` `scapy` 
-          
-          `Go` `DuckDB` `PostgreSQL` `MariaDB` `Galera` `Gitlab CI/CD`
+  title: Experiences
+  info:
+    - role: R&D Data Engineer
+      time: 2022 - Present
+      company: Ekinops, Lannion
+      details: |
+        - Analysis and correction (OLTP -> OLAP) of scalability issues of an IP traffic supervision system (Netflow) on an SD-WAN product
+        - Implementation of testing/simulation tools, generation of massive network data
+          - Upstreamed contributions to `scapy` Netflow module
+        - Architecture and implementation of the alerts/monitoring database of a network management solution (NMS)
+        - DBMS optimization (Index tailoring, request profiling)
+        - Automation of embedded database integration pipelines for routers (traffic classification)
+  #       - Pipeline automation using Gitlab CI/CD 
+        
+        `Python` `asyncio` `Galera` `Cassandra` 
+        
+        `Go` `DuckDB` `PostgreSQL` `MariaDB` `pola.rs` `scapy` `Gitlab CI/CD`
 
-      - role: Data Scientist
-        time: 2019 - 2022
-        company: See-d, Vannes
-        details: |
-          - Regression, Classification, Forecasting on various industrial topics (agronomy, logistics)
-          - Natural Language Processing (NLP)
-            - topic segmentation 
-            - sentiment analysis
-          - Image analysis (Computer Vision, anomaly detection, CNN)
-            - production monitoring 
-            - quality control
-          - Deployment and industrialization of Data Science projects (MLOps)
-          - Report writing and project presentation to stakeholders
-          - Writing and conducting pedagogical trainings 
-            - "Lean 6-sigma black belt" level
-            - Qualiopi certified on first session
-          - Mentored:
-            - 4 internships (BsC and MSc level)
-            - 3 phd candidates in a summer school program
+    - role: Data Scientist
+      time: 2019 - 2022
+      company: See-d, Vannes
+      details: |
+        - Regression, Classification, Forecasting on various industrial topics (agronomy, logistics)
+        - Natural Language Processing (NLP)
+          - topic segmentation 
+          - sentiment analysis
+        - Image analysis (Computer Vision, anomaly detection, CNN)
+          - production monitoring 
+          - quality control
+        - Deployment and industrialization of Data Science projects (MLOps)
+        - Report writing and project presentation to stakeholders
+        - Audit of business operations, coordination with IT/Datalabs, writing of specifications
+        - Writing and conducting pedagogical trainings 
+          - "Lean 6-sigma black belt" level
+          - Qualiopi certified on first session
+        - Mentored:
+          - 4 internships (BsC and MSc level)
+          - 3 phd candidates in a summer school program
 
-          `Python` `PySpark` `PyTorch` `gensim` `Keras` `OpenCV` 
-          
-          `R` `PostgreSQL` `SnowFlake` `Docker` `Anaconda`
+        `Python` `PySpark` `PyTorch` `gensim` `Keras` `OpenCV` 
+        
+        `R` `PostgreSQL` `SnowFlake` `Docker` `Anaconda`
 
-      - role: Phd candidate (data scientist)
-        time: 2016 - 2019
-        company: Avril + See-d + IRISA, Vannes & Rennes (Remote)
-        details: |
-          - Machine learning applied to structure-activity relationships (QSAR)
-          - Development of Feature-Learning algorithms for for molecular subgraphs
-          - Exploration of correlations between topological and macroscopic models
-          - Contributed to graph isomorphism problem, library published in MIT 
-          
-          Worked on side subjects as Junior Data-Scientist.
-          
-          `Python` `PySpark` `PyTorch` `gensim` `R` `Docker`
+    - role: Phd candidate (data scientist)
+      time: 2016 - 2019
+      company: Avril + See-d + IRISA, Vannes & Rennes (Remote)
+      details: |
+        - Machine learning applied to structure-activity relationships (QSAR)
+        - Development of Feature-Learning algorithms for for molecular subgraphs
+        - Exploration of correlations between topological and macroscopic models
+        - Contributed to graph isomorphism problem, library published in MIT 
+        
+        Worked on side subjects as Junior Data-Scientist.
+        
+        `Python` `PySpark` `PyTorch` `gensim` `R` `Docker`
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
 
 projects:
-    title: Projects
-    intro: 
-    assignments:
-      - title: Scott
-        link: "https://theplatypus.github.io/scott/"
-        tagline: "My thesis contribution to graph isomorphism problem."
-        details: |
-          
-          - canonization algorithm working on fully labeled graphs (vertices and edges)
-          - provides for any graph a tree representant of its isomorphism class
-          - well suited for low-connected graphs (e.g. molecules)
+  title: Projects
+  intro: 
+  assignments:
+    - title: Scott
+      link: "https://theplatypus.github.io/scott/"
+      tagline: "My thesis contribution to graph isomorphism problem."
+      details: |
+        
+        - canonization algorithm working on fully labeled graphs (vertices and edges)
+        - provides for any graph a tree representant of its isomorphism class
+        - well suited for low-connected graphs (e.g. molecules)
 
-      - title: RExpress
-        link: "https://github.com/theplatypus/RExpress"
-        tagline: "Low latency, middleware ReST wrapper of a pool of R interpreters."
-        details: |
+    - title: RExpress
+      link: "https://github.com/theplatypus/RExpress"
+      tagline: "Low latency, middleware ReST wrapper of a pool of R interpreters."
+      details: |
 
-          - Has been used to provide real-time access to a pricing model (retail) running in R
-          - Key point is to pipe the incoming HTTP request to a pool of interpreters kept opened
-          - < 20ms of additional latency.
+        - Has been used to provide real-time access to a pricing model (retail) running in R
+        - Key point is to pipe the incoming HTTP request to a pool of interpreters kept opened
+        - < 20ms of additional latency.
 
-      - title: Cardigraph
-        link: "https://gist.github.com/theplatypus/886ac65e837b8d23ed4d630051888603"
-        tagline: "Few theoretical calculus of graph classes cardinalities."
+    - title: Cardigraph
+      link: "https://gist.github.com/theplatypus/886ac65e837b8d23ed4d630051888603"
+      tagline: "Few theoretical calculus of graph classes cardinalities."
 
 oss:
-    title: OSS Contributions
-    intro: >
-      Some open-sources projects I enjoyed contributing for:
-    contributions:
-      - title: Scapy
-        link: "https://github.com/secdev/scapy"
-        tagline: "Python-based interactive packet manipulation program & library."
+  title: OSS Contributions
+  intro: >
+    Some open-sources projects I enjoyed contributing for:
+  contributions:
+    - title: Scapy
+      link: "https://github.com/secdev/scapy"
+      tagline: "Python-based interactive packet manipulation program & library."
 
-publications:
-    title: Publications
-    intro:
-    papers:
-      - title: "Scott: A method for representing graphs as rooted trees for graph canonization"
-        link: "#"
-        authors: Nicolas Bloyet, Pierre-François Marteau, Emmanuel Frénod
-        conference: Complex Networks and Their Applications, 2019
+  publications:
+  title: Publications
+  intro:
+  papers:
+    - title: "Scott: A method for representing graphs as rooted trees for graph canonization"
+      link: "#"
+      authors: Nicolas Bloyet, Pierre-François Marteau, Emmanuel Frénod
+      conference: Complex Networks and Their Applications, 2019
 
-      - title: "Étude lexicographique de sous-graphes pour l’élaboration de modèles structures à activité–cas de la chimie organique"
-        link: "#"
-        authors: Nicolas Bloyet, Pierre-François Marteau, Emmanuel Frénod
-        conference: "Extraction et Gestion des Connaissances, 2019"
-
-      - title: "Construction of a statistical learning tool based on ordinary differential equations to model the digestive behaviour of ross chickens"
-        link: "#"
-        authors: Nicolas Bloyet, Hélène Flourent, Emmanuel Frénod, Marouan Handa, Harold Moundoyi, Thuy Vo Thi Phuong
-        conference: "ESAIM: Proceedings and Surveys, 2020"
+    - title: "Étude lexicographique de sous-graphes pour l’élaboration de modèles structures à activité–cas de la chimie organique"
+      link: "#"
+      authors: Nicolas Bloyet, Pierre-François Marteau, Emmanuel Frénod
+      conference: "Extraction et Gestion des Connaissances, 2019"
 
 skills:
     title: Skills
@@ -218,27 +192,33 @@ skills:
     toolset:
       - category: Technical Stack
         details: |
-          `Python` `asyncio` `pola.rs` `pandas` `AirFlow` `Spark` `scikit` `PyTorch`
+          `Python` `asyncio` `pola.rs` `pandas` `scikit` `HuggingFace` `Spark`  `PyTorch`
 
-          `R` `Go` `Node.js`
+          `R` `SQL` `Go` `Node.js`
 
-          `bash` `Docker` `Gitlab CI/CD`
+          `bash` `Docker` `Gitlab CI/CD` `MLFlow` `AirFlow` `Prometheus` `Grafana`
 
-      - category: SGBD 
+      - category: DBMS 
         details: |
           - **OLTP** `PostgreSQL` `MariaDB` `Galera`
 
           - **OLAP** `ClickHouse` `polars` `DuckDB` `SnowFlake` 
           
-          - **NoSQL** `MongoDB` `Redis`
+          - **NoSQL** `Cassandra` `MongoDB` `Redis`
 
       - category: Data Science
         details: |
           - Regression, Classification, Forecasting
           - Variable Selection
 
+      - category: Data Engineering
+        details: |
+          - DBMS optimization (Indexing/Sharding, Profiling, High-Availability)
+          - ETL (`AirFlow`, `Kafka`, `Spark`)
+
       - category: Machine/Deep Learning
         details: |
+          - Transformers
           - Auto-Encoders
           - Generative Adversarial Networks
           - Convolutional Neural Networks
@@ -248,8 +228,8 @@ skills:
         details: |
           - Graph Theory
           - Algorithms Complexity
-          - Distributed Computing 
-          - Asynchronous Programming 
+          - Distributed Computing
+          - Asynchronous Programming
 
       - category: Natural Language Processing (NLP)
         details: |
@@ -263,10 +243,17 @@ skills:
           - Pattern matching
           - Feature Extraction
 
+      # - category: Automation
+      #   details: |
+      #     - `Docker` `Compose`
+      #     - `Gitlab CI/CD`
+      #     - System Monitoring (`Prometheus` `Grafana`)
+      #     - `AirFlow`
+      #     - `MLFlow`
+
       - category: Communication
         details: |
           - Reports writing & presentations
           - Trainings writing & animation
-
 
 footer: 
