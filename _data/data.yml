@@ -101,7 +101,9 @@ experiences:
       time: 2019 - 2022
       company: See-d, Vannes
       details: |
-        - Regression, Classification, Forecasting on various industrial topics (agronomy, logistics)
+        - Regression, Classification, Forecasting on various industrial topics 
+          - agronomy
+          - logistics
         - Natural Language Processing (NLP)
           - topic segmentation 
           - sentiment analysis
@@ -208,7 +210,7 @@ skills:
       - category: Data Science
         details: |
           - Regression, Classification, Forecasting
-          - Variable Selection
+          - Feature Selection
 
       - category: Data Engineering
         details: |
