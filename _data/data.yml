@@ -137,7 +137,6 @@ experiences:
         
         `Python` `PySpark` `PyTorch` `gensim` `R` `Docker`
 
-
 projects:
   title: Projects
   intro: 
@@ -173,7 +172,7 @@ oss:
       link: "https://github.com/secdev/scapy"
       tagline: "Python-based interactive packet manipulation program & library."
 
-  publications:
+publications:
   title: Publications
   intro:
   papers:
