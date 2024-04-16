@@ -86,8 +86,10 @@ experiences:
       time: 2022 - Present
       company: Ekinops, Lannion
       details: |
-        - Analysis and correction (OLTP -> OLAP) of scalability issues of an IP traffic supervision system (Netflow) on an SD-WAN product
-        - Implementation of testing/simulation tools, generation of massive network data
+        - Analysis of scalability challenges on the IP traffic supervision system (Netflow) from a SD-WAN product
+          - Mitigation of issues on the existing, in-production OLTP system (lossy aggregation, time-partitioning)
+          - Design of a OLAP system for future release
+        - Implementation of testing/simulation tools, generation of massive realistic network data
           - Upstreamed contributions to `scapy` Netflow module
         - Architecture and implementation of the alerts/monitoring database of a network management solution (NMS)
         - DBMS optimization (Index tailoring, request profiling)
