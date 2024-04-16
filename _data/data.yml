@@ -87,8 +87,8 @@ experiences:
       company: Ekinops, Lannion
       details: |
         - Analysis of scalability challenges on the IP traffic supervision system (Netflow) from a SD-WAN product
-          - Mitigation of issues on the existing, in-production OLTP system (lossy aggregation, time-partitioning)
-          - Design of a OLAP system for future release
+          - Leveraging the existing, in-production OLTP system (custom aggregation, time-partitioning)
+          - Deep study of alternatives OLAP systems
         - Implementation of testing/simulation tools, generation of massive realistic network data
           - Upstreamed contributions to `scapy` Netflow module
         - Architecture and implementation of the alerts/monitoring database of a network management solution (NMS)
