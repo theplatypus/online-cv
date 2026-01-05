@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Nicolas Bloyet
-    tagline: Data Scientist/Engineer
+    tagline: Data/Software Engineer
     avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -82,8 +82,34 @@ education:
 experiences:
   title: Experiences
   info:
+    - role: Lead Developer
+      time: 2024 - Present
+      company: Marine-Weather-Inteligence, Auray
+      details: |
+        - Web application & geospatial stack
+          - Leading the development of a **yachting / shipping web application**
+          - Building interactive **web mapping features with Leaflet**
+          - Implementing geospatial data visualization for marine weather use cases
+        - Data & database architecture
+          - Designing and maintaining the **PostgreSQL / PostGIS** data layer
+          - Modeling spatial and time-series weather data
+        - Technical leadership & code quality
+          - Defining and enforcing engineering best practices
+          - Ensuring clean architecture, modular design, and feature isolation
+          - Maintaining high standards for testability, versioning, and documentation
+        - Team growth & delivery
+          - Conducting code reviews and defining testing strategies
+          - Participating in technical recruitment
+        - DevOps & reliability
+         - Contributing to CI/CD pipelines and deployment workflows
+         - Improving platform reliability, monitoring, and operational practices
+         
+        `Python` `TypeScript` `PostgreSQL/PostGIS`
+        
+        `GraphQL` `Svelte/SvelteKit` `Docker/Swarm` `Hasura` `DuckDB`
+    
     - role: R&D Data Engineer
-      time: 2022 - Present
+      time: 2022 - 2024
       company: Ekinops, Lannion
       details: |
         - Analysis of scalability challenges on the IP traffic supervision system (Netflow) from a SD-WAN product
